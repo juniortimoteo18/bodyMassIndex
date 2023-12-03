@@ -6,7 +6,7 @@
 
 body {
 	min-height: 100vh;
-	background: #eee;
+	background: #eee; 
 	display: flex;
 	font-family: sans-serif;
 }
@@ -66,7 +66,7 @@ body {
 	height: 34px;
 	border: none;
 	outline: none;
-	background: #27a327;
+	background: #4285F4;
 	cursor: pointer;
 	font-size: 16px;
 	text-transform: uppercase;
@@ -77,4 +77,4 @@ body {
 
 .containerPrincipal .btn:hover {
 	opacity: .7;
-S} 
+} 
