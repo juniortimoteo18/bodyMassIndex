@@ -4,26 +4,25 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title>BMI</title>
+	<!-- CSS -->
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+	<!-- JavaScript -->
+	<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
 </head>
 <body>
 	<div class="containerPrincipal">
 		<div class="form">
 			<h1>Body Mass Index</h1>
 			<p>Body mass index (BMI) is a value derived from the mass (weight) and height of a person. The BMI is defined as the body mass divided by the square of the body height, and is expressed in units of kg/m2, resulting from mass in kilograms (kg) and height in metres (m).<a href="https://en.wikipedia.org/wiki/Body_mass_index">Wikipedia</a></p>
-			<div class="form-group">
-				<label for="height">Insert your height(m)</label>
-				<input id="height" class="form-control" type="text" name="height" placeholder="Insert your height(m)">
-			</div>
-			<div class="form-group">
-				<label for="weight">Insert your weight(kg)</label>
-				<input id="weight" class="form-control" type="text" name="weight" placeholder="Insert your weight(kg)">
-			</div>
-			<h3>Result</h3>
-			<p id="result"></p>
-			<button id="btn-check" class="btn btn-block btn_check" type="button" onclick="">Check</button>
+			<div id="app"></div>
 		</div>
 	</div>
+
+	<script type="text/babel" src="script.js">
+		
+	</script>
 </body>
 </html>
