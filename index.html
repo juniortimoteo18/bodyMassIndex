@@ -11,6 +11,13 @@
 	<script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
     <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
     <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
+    <style>
+    	table, th, tr {
+    		border: 1px solid silver;
+			border-collapse: collapse;
+    	}
+    </style>
+
 </head>
 <body>
 	<div class="containerPrincipal">
@@ -18,6 +25,41 @@
 			<h1>Body Mass Index</h1>
 			<p>Body mass index (BMI) is a value derived from the mass (weight) and height of a person. The BMI is defined as the body mass divided by the square of the body height, and is expressed in units of kg/m2, resulting from mass in kilograms (kg) and height in metres (m).<a href="https://en.wikipedia.org/wiki/Body_mass_index">Wikipedia</a></p>
 			<div id="app"></div>
+			<div>
+				<table style="width: 100%">
+					<thead>
+						<tr>
+							<th>Class</th><th>BMI</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td>Under weight</td>
+							<td>Under 18.4</td>
+						</tr>
+						<tr>
+							<td>Normal weight</td>
+							<td>Between 18.5 and 24.9</td>
+						</tr>
+						<tr>
+							<td>Overweight</td>
+							<td>Between 25 and 29.9</td>
+						</tr>
+						<tr>
+							<td>Obesity Grade I</td>
+							<td>Between 30 and 34.9</td>
+						</tr>
+						<tr>
+							<td>Obesity Grade II</td>
+							<td>Between 35 and 39.9</td>
+						</tr>
+						<tr>
+							<td>Obesity Grade III</td>
+							<td>Above 40</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
 		</div>
 	</div>
 
