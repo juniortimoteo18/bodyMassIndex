@@ -74,4 +74,8 @@ body {
 
 .containerPrincipal .btn:hover {
 	opacity: .7;
-} 
+}
+
+.containerPrincipal .form-table {
+	margin-top: 14px;
+}
